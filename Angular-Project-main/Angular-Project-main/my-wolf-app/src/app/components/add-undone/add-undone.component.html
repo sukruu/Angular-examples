@@ -1,0 +1,6 @@
+   <div class="mb-3">
+    <label for="input" class="label control">work to do</label>
+    <!-- <input class="form-control" [(ngModel)]="unDoneInput"   id="input" type="text"> -->
+    <input class="form-control"  id="input" type="text" #addInput>
+   <button class="btn btn-primary mt-2" (click)="addUnDoneItem(addInput)">Add</button>
+  </div>

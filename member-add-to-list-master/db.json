@@ -1,0 +1,68 @@
+{
+  "posts": [
+    {
+      "firstname": "Mehmet",
+      "lastname": "Yıldız",
+      "birthdate": "",
+      "gender": "m",
+      "education": "Yüksek Lisans",
+      "company": "Senior Software Developer",
+      "jobExperience": 15,
+      "salary": 15000,
+      "profile": "Profile-011.jpg",
+      "id": 1
+    },
+    {
+      "firstname": "Zeynep",
+      "lastname": "Keskinkaya",
+      "birthdate": "",
+      "gender": "f",
+      "education": "Lisans",
+      "company": "Mid Fronted Developer",
+      "jobExperience": 4,
+      "salary": 10000,
+      "profile": "Profile-01.jpg",
+      "id": 2
+    },
+    {
+      "firstname": "Can",
+      "lastname": "Yılmanzem",
+      "birthdate": "",
+      "gender": "m",
+      "education": "Öğrenci",
+      "company": "Junior Backend Developer",
+      "jobExperience": 1,
+      "salary": 4000,
+      "profile": "Profile-02.jpg",
+      "id": 3
+    },
+    {
+      "firstname": "Ufuk",
+      "lastname": "Yorganyastık",
+      "birthdate": "",
+      "gender": "m",
+      "education": "Doktora",
+      "company": "Lead Fullstack Developer",
+      "jobExperience": 14,
+      "salary": 35000,
+      "profile": "Profile-03.jpg",
+      "id": 4
+    },
+    {
+      "firstname": "Zülfiye",
+      "lastname": "Bayata",
+      "birthdate": "",
+      "gender": "f",
+      "education": "Doktora",
+      "company": "Müdür",
+      "jobExperience": 20,
+      "salary": 40000,
+      "profile": "Profile-01.jpg",
+      "id": 5
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

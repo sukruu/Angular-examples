@@ -1,0 +1,35 @@
+@import "./app/styles/variables";
+
+
+@font-face {
+  font-family: "OpenSans";
+  src: local("Open Sans"), url(./assets/fonts/Open_Sans/OpenSans-Regular.ttf) format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSansBold";
+  src: local("Open Sans"), url(./assets/fonts/Open_Sans/OpenSans-Bold.ttf) format("truetype");
+  font-weight: normal;
+}
+
+body {
+  font-family: "OpenSans", Arial, Helvetica, sans-serif;
+  background-color: $background-color;
+}
+
+.w900 {
+  font-family: "OpenSansBold", Arial, Helvetica, sans-serif;
+}
+
+/*
+ Sidebar styles
+*/
+.sidebar__open {
+  .sidebar {
+    right: 0 !important;
+  }
+
+  .sidebar__overlay {
+    display: block !important;
+  }
+}

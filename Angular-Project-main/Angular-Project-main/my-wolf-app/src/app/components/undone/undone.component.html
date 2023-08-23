@@ -1,0 +1,8 @@
+<h3 class="text-danger">List of must do jobs</h3>
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let unDone of unDoneModels">
+    {{ unDone.title }}
+    <button class="btn btn-success" (click)="completeUnDoneItem(unDone)">Complete</button>
+    <button class="btn btn-danger mx-2" (click)="deleteUnDoneItem(unDone)">Delete</button>
+  </li>
+</ul>

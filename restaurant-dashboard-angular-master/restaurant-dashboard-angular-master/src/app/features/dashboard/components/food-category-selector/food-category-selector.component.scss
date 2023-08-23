@@ -1,0 +1,58 @@
+@import "../../../../styles/variables";
+
+.category-selector {
+  width: 4rem;
+  height: calc(100% - 4rem);
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+
+  &__button {
+    height: 10%;
+    border: 1px $background_color solid;
+    border-width: 0 0 1px;
+    background-color: transparent;
+    width: 100%;
+
+    &:hover {
+      background-color: $background_color;
+      color: $primary-color;
+    }
+  }
+
+  &__label {
+    display: none;
+
+    &--bold {
+      font-size: $font-size-sm;
+      font-weight: bold;
+    }
+
+    & > span {
+      text-align: start;
+    }
+  }
+
+  @media (min-width: 800px) {
+    width: 15rem;
+
+    &__button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    &__icon {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+
+    &__label {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+<nav class="main-navbar">
+  <div class="main-navbar__brand">
+    <img class="main-navbar__logo" src="/assets/logo.png" alt="logo" />
+    <div class="main-navbar__title">
+      <span class="main-navbar__title main-navbar__title--bold w900">{{
+        selectedRestaurant.province
+      }}</span
+      >, {{ selectedRestaurant.state }}
+    </div>
+    <div class="main-navbar__dropdown">
+      <button class="main-navbar__dropdown-button w900">
+        <fa-icon [icon]="faChevronDown" aria-hidden="true"></fa-icon>
+      </button>
+      <div class="main-navbar__dropdown-content">
+        <button
+          class="main-navbar__dropdown-item"
+          *ngFor="let rest of restaurants | filter : filterargs"
+          (click)="onRestaurantSelected(rest)"
+        >
+          <span class="w900">{{ rest.province }}</span
+          >, {{ rest.state }}
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="main-navbar__actions">
+    <button class="main-navbar__button w900">
+      <fa-icon [icon]="faQuestionCircle" aria-hidden="true"></fa-icon> HELP
+    </button>
+    <button class="main-navbar__button w900">
+      <fa-icon [icon]="faSignIn" aria-hidden="true"></fa-icon> SIGN IN
+    </button>
+    <button class="main-navbar__button w900">
+      <fa-icon [icon]="faShoppingCart" aria-hidden="true"></fa-icon> CART
+    </button>
+    <button
+      class="main-navbar__button w900 main-navbar__button--hidden"
+      (click)="sidebarService.open()"
+    >
+      <fa-icon [icon]="faBars" aria-hidden="true"></fa-icon>
+    </button>
+  </div>
+</nav>

@@ -1,0 +1,9 @@
+<div class="category-selector">
+    <button class="category-selector__button" *ngFor="let cat of categories">
+        <mat-icon class="category-selector__icon" svgIcon={{cat.icon}} aria-hidden="true"></mat-icon>
+        <div class="category-selector__label">
+          <span class="category-selector__label--bold">{{cat.name}}</span>
+          <span>{{getPlateQuantity(cat.id) }} Options</span>
+        </div>
+      </button>
+</div>

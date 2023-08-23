@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "restaurantId": 1,
+        "categoryId": 3,
+        "name": "New York Cheesecake",
+        "price": 100.0,
+        "unit": "piece",
+        "prepTime": 20,
+        "averageRating": 4.5
+    },
+    {
+        "id": 2,
+        "restaurantId": 1,
+        "categoryId": 3,
+        "name": "Monten Lava Cakes",
+        "price": 20.9,
+        "unit": "piece",
+        "prepTime": 33,
+        "averageRating": 4.2
+    },
+    {
+        "id": 3,
+        "restaurantId": 1,
+        "categoryId": 3,
+        "name": "Macaroni Cheese",
+        "price": 15.9,
+        "unit": "piece",
+        "prepTime": 33,
+        "averageRating": 4.6
+    },
+    {
+        "id": 4,
+        "restaurantId": 1,
+        "categoryId": 3,
+        "name": "Mix salade",
+        "price": 10.9,
+        "unit": "piece",
+        "prepTime": 33,
+        "averageRating": 5.0
+    },
+    {
+        "id": 5,
+        "restaurantId": 1,
+        "categoryId": 2,
+        "name": "Romesco Pasta Salad with Basil",
+        "price": 80.9,
+        "unit": "piece",
+        "prepTime": 33,
+        "averageRating": 3.7
+    },
+    {
+        "id": 6,
+        "restaurantId": 1,
+        "categoryId": 2,
+        "name": "Italian Pizza",
+        "price": 50.9,
+        "unit": "piece",
+        "prepTime": 20,
+        "averageRating": 5.0
+    },
+    {
+        "id": 7,
+        "restaurantId": 1,
+        "categoryId": 5,
+        "name": "Chicago-Style Hot dog",
+        "price": 3.0,
+        "unit": "piece",
+        "prepTime": 3,
+        "averageRating": 5.0
+    },
+    {
+        "id": 8,
+        "restaurantId": 1,
+        "categoryId": 1,
+        "name": "Cuban Ropa Vieja",
+        "price": 20.0,
+        "unit": "piece",
+        "prepTime": 40,
+        "averageRating": 5.0
+    },
+    {
+        "id": 9,
+        "restaurantId": 1,
+        "categoryId": 2,
+        "name": "Fiesta Slow Cooker Shredded Chicken Tacos",
+        "price": 11.0,
+        "unit": "piece",
+        "prepTime": 7,
+        "averageRating": 4.2
+    },
+    {
+        "id": 10,
+        "restaurantId": 1,
+        "categoryId": 4,
+        "name": "Coconut Chickpea Curry",
+        "price": 15.0,
+        "unit": "piece",
+        "prepTime": 18,
+        "averageRating": 4.7
+    },
+    {
+        "id": 11,
+        "restaurantId": 1,
+        "categoryId": 4,
+        "name": "Watermelon \"Tuna\" Poke Bowl",
+        "price": 12.9,
+        "unit": "piece",
+        "prepTime": 12,
+        "averageRating": 3.9
+    }
+]

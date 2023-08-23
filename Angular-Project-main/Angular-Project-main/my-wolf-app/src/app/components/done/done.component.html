@@ -1,0 +1,7 @@
+<h3 class="text-success">List of must do jobs</h3>
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let done of doneModels">
+    {{ done.title }}
+    <button class="btn btn-danger" (click)="changeDoneItem(done)">Delete</button>
+  </li>
+</ul>
